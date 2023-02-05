@@ -9,6 +9,7 @@
 body {
     font-family: 'Hind Madurai', sans-serif;
     margin:0;
+    background-color: #EBE9E9;
 }
 
 .carrusel{
@@ -113,4 +114,89 @@ body {
 
 #contact-me{
     left: 90%;
+}
+
+
+.informacion{
+    width: 100%;
+}
+
+/* Experiencia */
+
+.experience{
+    margin: 0 0 0 0;
+}
+
+.titulo_seccion{
+    position: relative;
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 150px;
+    line-height: 207px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #D96846;
+}
+
+.parrafo{
+    position: relative;
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 80px;
+    display: flex;
+    align-items: center;
+    color: #596235;
+    position: relative;
+}
+
+.subtitulo{
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 80px;
+    color: #596235;
+}
+
+#subtituloGTA{
+    left: 526px;
+    top: 450px;
+}
+
+#parrafoGTA{
+    width:80%;
+    left: 29px;
+
+}
+
+#subtituloAk{
+    right:10%;
+    text-align: right;
+}
+
+#parrafoAk{
+    left:20%;
+    text-align: right;
+    width:80%;
+}
+
+#subtituloUM{
+    left: 526px;
+    top: 450px;
+}
+
+#parrafoUM{
+    width:80%;
+    left: 29px;
+}
+
+#titulo_experiencia{
+    width: 776px;
+    height: 157px;
+    left: 2px;
+    top: -1px;
 }
