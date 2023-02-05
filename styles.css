@@ -326,3 +326,104 @@ body {
     line-height: 150px;
     font-size: 200px;
 }
+
+
+/* Contacto */
+
+#titulo_contact-me{
+    left: 2%;
+    top: -1px;
+}
+
+.input-info{
+    background-color: white;
+    width: 50%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+
+#msg-section {
+    height: 600px;
+}
+
+.contact-me-input {
+    font-size: 70px;
+    border: none;
+    outline: none;
+    width: 100%;
+    background: transparent;
+    padding-left: 40px;
+}
+
+.contact-me-input::placeholder{
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    color: darkgray;
+    padding: auto;
+}
+
+.send-btn{
+    width: 100%;
+    text-align: center;
+}
+
+.sociales{
+    margin-top: 200px;
+    width: 100%;
+    text-align: center;
+}
+
+.red{
+    height: 300px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.red-link{
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    color: #2f3020;
+    margin-bottom: 40px;
+}
+
+.red_block{
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+
+.personal-info{
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 80px;
+    color: #596235;
+}
+
+#send-btn{
+    width: 10%;
+    background-color: #2f3020;
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    color: wheat;
+    cursor: pointer;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+#send-btn:hover, #send-btn:focus{
+    font-weight: 700;
+    font-size: 60px;
+}
+

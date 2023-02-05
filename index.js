@@ -31,3 +31,29 @@ for(let i = 0; i < graph_tags_fields.length; i++){
     fills[i].style.width=`${graph_values[i]}%`
 }
 
+
+
+const sendButton = document.getElementById("send-btn")
+const nameInput = document.getElementById("name")
+const emailInput = document.getElementById("email-field")
+const msgInput = document.getElementById("msg-box")
+const regularExpName = /^[A-Za-z\s]*$/
+const regularExpMail = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
+
+sendButton.addEventListener("click", () => {
+    let name = nameInput.value
+    let email = emailInput.value
+    let msg = msgInput.value
+
+    if ((name.length == 0) && (email.length == 0) && (msg.length == 0)){
+        alert("Error:   Rellene todos los campos para enviar un mensaje.")
+    } else if (!(String(name).match(regularExpName))){
+        alert("Error:   Nombre ingresado inválido.")
+    }
+    else if (!(String(email).match(regularExpMail))){
+        alert("Error:   Dirección de correo inválida.")
+    } else{
+        alert(`MENSAJE ENVIADO CON ÉXITO.              Nombre: ${name} - Nombre: ${email}`)
+    }
+
+})
