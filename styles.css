@@ -150,7 +150,7 @@ body {
     display: flex;
     align-items: center;
     color: #596235;
-    position: relative;
+    
 }
 
 .subtitulo{
@@ -199,4 +199,56 @@ body {
     height: 157px;
     left: 2px;
     top: -1px;
+}
+
+.linea{
+    border:10px solid brown;
+}
+
+
+/* About Me */
+#titulo_about-me{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #D96846;
+    line-height: 150px;
+}
+
+#nombre{
+    position: relative;
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about-me-parrafo{
+    position: relative;
+    width: 80%;
+    line-height: 80px;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#about-me-img{
+    position: relative;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50px;
+    bottom: 150px;
+    border-radius: 222px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin:auto;
+
 }
