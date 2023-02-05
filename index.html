@@ -5,9 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
-    <title>Document</title>
+    <title>Miniproyecto I</title>
 </head>
 <body>
-    
+    <section aria-label="Fotos">
+        <div class="carrusel" data-carrusel>
+
+            <button class="carrusel-btn" data-carrusel-btn="prev" id="carrusel-btn-prev">&#8656;</button>
+            <button class="carrusel-btn" data-carrusel-btn="next" id="carrusel-btn-next">&#8658;</button>
+
+            <ul data-slides>
+                <li class="slide" data-active>
+                    <img src="./F.Claudia.png" alt="IMG1">
+                </li>
+                <li class="slide">
+                    <img src="./F.Lucas.png" alt="IMG2">
+                </li>
+                <li class="slide">
+                    <img src="./F.Personal.png" alt="IMG3">
+                </li>
+            </ul>
+        </div>
+
+    </section>
+
+    <script src="./index.js"></script>
 </body>
 </html>
