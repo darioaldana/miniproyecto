@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@400;500;700&display=swap');
 
 
+/* CARRUSEL */
 *, *::before, *::after{
     box-sizing: border-box;
 }
@@ -69,3 +70,47 @@ body {
     right:20px;
 }
 
+
+/* NAVBAR */
+
+.nav-bar{
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    height: 172px;
+    background: #596235;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    /* border-radius: 0px 0px 0px 50px; */
+}
+
+.nav-bar-text{
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 76px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    width: 280px;
+    height: 110px;
+    top: 30px;
+    color: rgb(255, 255, 255);
+}
+
+#experience{
+    left: 30%;
+}
+
+#about-me{
+    left: 50%;
+}
+
+#skills{
+    left: 70%;
+}
+
+#contact-me{
+    left: 90%;
+}
