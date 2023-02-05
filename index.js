@@ -20,7 +20,7 @@ carrusel_buttons.forEach(btn => {
 })
 
 
-let skills = {"Bolas Criollas":85, "Cocina":70, "Mecánica":15, "Matemáticas":90, "Lectura":30}
+let skills = {"Java":85, "HTML":30, "C++":15, "Python":90, "JavaScript":30}
 let graph_tags = Object.keys(skills)
 let graph_values = Object.values(skills)
 let fills = document.querySelectorAll(".fill")
