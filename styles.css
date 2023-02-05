@@ -101,19 +101,19 @@ body {
 }
 
 #experience{
-    left: 30%;
+    left: 5%;
 }
 
 #about-me{
-    left: 50%;
+    left: 30%;
 }
 
 #skills{
-    left: 70%;
+    left: 55%;
 }
 
 #contact-me{
-    left: 90%;
+    left: 75%;
 }
 
 
@@ -125,6 +125,7 @@ body {
 
 .experience{
     margin: 0 0 0 0;
+    width: 100%;
 }
 
 .titulo_seccion{
@@ -208,10 +209,14 @@ body {
     width:80%;
 }
 
+.alinear-der{
+    width: 100%;
+    text-align: right;
+}
+
 #imgAk{
     height: 540px;
     width: auto;
-    margin-left: 70%;
     margin-right: 1%;
 }
 
@@ -425,5 +430,29 @@ body {
 #send-btn:hover, #send-btn:focus{
     font-weight: 700;
     font-size: 60px;
+}
+
+
+@media(min-width: 768px){
+    .search_box{
+        width: 50%;
+    }
+
+    .results_box{
+        width: 50%;
+    }
+}
+
+
+/* Desktop */
+@media(min-width: 1024px){
+    .search_box{
+        width: 440px;
+        height: 48px;
+    }
+
+    .results_box{
+        width: 440px;
+    }
 }
 
