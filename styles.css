@@ -47,7 +47,7 @@ body {
     z-index: 2;
     background: none;
     border: none;
-    font-size: 96px;
+    font-size: 48px;
     top: 50%;
     transform: translateY(-50%);
     cursor: pointer;
@@ -78,25 +78,24 @@ body {
     box-sizing: border-box;
     position: relative;
     width: 100%;
-    height: 172px;
+    height: 82px;
     background: #2f3020;
     border: 1px solid rgba(0, 0, 0, 0.1);
-    /* border-radius: 0px 0px 0px 50px; */
 }
 
 .nav-bar-text{
     font-family: 'Hind Madurai';
     font-style: normal;
-    font-weight: 400;
-    font-size: 55px;
-    line-height: 76px;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 35px;
     display: flex;
     align-items: center;
     text-align: center;
     position: absolute;
     width: 280px;
-    height: 110px;
-    top: 30px;
+    height: 55px;
+    top: 15px;
     color: rgb(255, 255, 255);
 }
 
@@ -129,12 +128,13 @@ body {
 }
 
 .titulo_seccion{
+    margin-top: 2px;
     position: relative;
     font-family: 'Hind Madurai';
     font-style: normal;
-    font-weight: 700;
-    font-size: 150px;
-    line-height: 207px;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 0px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -145,9 +145,9 @@ body {
     position: relative;
     font-family: 'Hind Madurai';
     font-style: normal;
-    font-weight: 400;
-    font-size: 60px;
-    line-height: 60px;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 20px;
     display: flex;
     align-items: center;
     color: #596235;
@@ -157,17 +157,17 @@ body {
 .subtitulo{
     font-family: 'Hind Madurai';
     font-style: normal;
-    font-weight: 900;
-    font-size: 80px;
-    line-height: 80px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 0px;
     color: #596235;
 }
 
 .work-link{
     font-family: 'Hind Madurai';
     font-style: normal;
-    font-weight: 900;
-    font-size: 30px;
+    font-weight: 300;
+    font-size: 15px;
     color: #2f3020;
 }
 
@@ -188,6 +188,7 @@ body {
 }
 
 #imgGTA{
+    width: 300px;
     margin-left: 10%;
 }
 
@@ -215,7 +216,7 @@ body {
 }
 
 #imgAk{
-    height: 540px;
+    height: 200px;
     width: auto;
     margin-right: 1%;
 }
@@ -227,7 +228,7 @@ body {
 }
 
 #imgUM{
-    height: 540px;
+    height: 100px;
     width: auto;
     margin-left: 10%;
 }
@@ -238,14 +239,13 @@ body {
 }
 
 #titulo_experiencia{
-    width: 776px;
-    height: 157px;
+    height: 80px;
     left: 2px;
     top: -1px;
 }
 
 .linea{
-    border:10px solid brown;
+    border:5px solid brown;
 }
 
 
@@ -256,14 +256,15 @@ body {
     justify-content: center;
     align-items: center;
     color: #D96846;
-    line-height: 150px;
+    line-height: 30px;
+    margin-top: 20px;
 }
 
 #nombre{
     position: relative;
-    font-weight: 900;
-    font-size: 100px;
-    line-height: 50px;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -271,10 +272,10 @@ body {
 
 #about-me-parrafo{
     position: relative;
-    width: 80%;
-    line-height: 80px;
-    margin-left: 10%;
-    margin-right: 10%;
+    width: 60%;
+    line-height: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -283,25 +284,25 @@ body {
 
 #about-me-img{
     position: relative;
-    width: 600px;
+    width: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
-    top: 50px;
-    bottom: 150px;
-    border-radius: 222px;
+    top: 5px;
+    bottom: 60px;
+    border-radius: 100px;
     margin-left: 10%;
     margin-right: 10%;
     margin:auto;
 
 }
 
-
+/* Skills */
 .rectangle{
     position: relative;
     width:60%;
-    height:150px;
-    border:10px solid #aaa;
+    height:40px;
+    border:5px solid #aaa;
     margin: auto;
     margin-bottom: 50px;
     
@@ -309,16 +310,16 @@ body {
 
 .skill{
     position: relative;
-    font-size: 50px;
+    font-size: 15px;
     margin-left: 20%;
-    margin-top: 100px;
+    margin-top: 10px;
     margin-bottom: 0;
 }
 
 .fill{
     position: relative;
     width:50%;
-    height:130px;
+    height:30px;
     background-color: #596235;
 }
 
@@ -328,8 +329,9 @@ body {
     justify-content: center;
     align-items: center;
     color: #D96846;
-    line-height: 150px;
-    font-size: 200px;
+    line-height: 20px;
+    margin-top: 20px;
+    font-size: 40px;
 }
 
 
@@ -343,32 +345,32 @@ body {
 .input-info{
     background-color: white;
     width: 50%;
-    height: 150px;
+    height: 40px;
     display: flex;
     justify-content: center;
     margin: auto;
-    margin-top: 40px;
-    border-radius: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
 }
 
 #msg-section {
-    height: 600px;
+    height: 100px;
 }
 
 .contact-me-input {
-    font-size: 70px;
+    font-size: 13px;
     border: none;
     outline: none;
     width: 100%;
     background: transparent;
-    padding-left: 40px;
+    padding-left: 15px;
 }
 
 .contact-me-input::placeholder{
     font-family: 'Hind Madurai';
     font-style: normal;
-    font-weight: 400;
-    font-size: 60px;
+    font-weight: 200;
+    font-size: 12px;
     color: darkgray;
     padding: auto;
 }
@@ -379,38 +381,38 @@ body {
 }
 
 .sociales{
-    margin-top: 200px;
+    margin-top: 70px;
     width: 100%;
     text-align: center;
 }
 
 .red{
-    height: 300px;
-    width: 300px;
-    margin-bottom: 10px;
+    height: 50px;
+    width: 50px;
+    margin-bottom: 5px;
 }
 
 .red-link{
     font-family: 'Hind Madurai';
     font-style: normal;
-    font-weight: 900;
-    font-size: 30px;
+    font-weight: 450;
+    font-size: 15px;
     color: #2f3020;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .red_block{
     margin: auto;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 
 .personal-info{
     font-family: 'Hind Madurai';
     font-style: normal;
-    font-weight: 900;
-    font-size: 100px;
-    line-height: 80px;
+    font-weight: 450;
+    font-size: 20px;
+    line-height: 10px;
     color: #596235;
 }
 
@@ -420,16 +422,20 @@ body {
     font-family: 'Hind Madurai';
     font-style: normal;
     font-weight: 400;
-    font-size: 60px;
+    font-size: 12px;
     color: wheat;
     cursor: pointer;
-    margin-top: 80px;
-    margin-bottom: 100px;
+    margin-top: 10px;
+    margin-bottom: 0px;
 }
 
 #send-btn:hover, #send-btn:focus{
-    font-weight: 700;
-    font-size: 60px;
+    font-weight: 350;
+    font-size: 15px;
+}
+
+#titulo_contact-me{
+    margin-top: 30px;
 }
 
 
